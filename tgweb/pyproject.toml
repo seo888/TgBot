@@ -1,0 +1,15 @@
+[project]
+name = "tgweb"
+version = "0.1.0"
+description = "tgweb"
+readme = "README.md"
+requires-python = ">=3.8, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "Telegram", module_name = "nonebot.adapters.telegram",access_token = "6323574779:AAG-bLmHVcfrfIpg5IMaQF0Q2FDFxtClJYs" }
+]
+plugins = []
+plugin_dirs = ["src/plugins"]
+builtin_plugins = ["echo"]
+
